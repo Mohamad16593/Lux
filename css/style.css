@@ -8,6 +8,7 @@
   -moz-box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
+    user-select: none;
 }
 html {
   scroll-behavior: smooth;
@@ -310,6 +311,7 @@ button {
   width: fit-content;
   color: var(--secondary-color);
   cursor: pointer;
+  user-select: none;
 }
 @media (max-width: 1024px) {
   .landing span.down {
